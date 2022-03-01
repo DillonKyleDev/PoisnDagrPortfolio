@@ -1,0 +1,13 @@
+@import './presets.css';
+
+.background-image {
+  background-color: var(--violet);
+  background-image: url('../assets/flats/Axe.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed !important;
+}
+
+.modal-open {
+  padding-right: 0px !important;
+}

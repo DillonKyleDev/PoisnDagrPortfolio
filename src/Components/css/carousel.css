@@ -1,0 +1,35 @@
+@import './presets.css';
+
+.carousel {
+  padding: 1.5rem;
+}
+
+.carousel-inner {
+  width: 90vw !important;
+  height: 90vw !important;
+  padding: 1rem !important;
+  overflow: hidden;
+  background-color: var(--hover-violet);
+}
+
+.item-container {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.active, .carousel-item {
+  height: 100% !important;
+  background-color: var(--hover-violet);
+
+}
+
+/*For centering the carousel on screen*/
+#carousel-container {
+  display: flex;
+  justify-content: center;
+}
+
+image {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}

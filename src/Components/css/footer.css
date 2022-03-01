@@ -1,0 +1,26 @@
+
+.text-color-violet {
+  color: var(--violet) !important;
+}
+
+.grounded {
+  bottom: 0px !important;
+}
+
+.top-layer {
+  z-index: 2 !important;
+}
+
+.social-link {
+  transition: transform 0.2s !important;
+  transition-timing-function: ease !important;
+}
+
+.social-link.active {
+  border: none !important;
+  padding: 0.5rem 1rem !important;
+}
+
+.social-link:hover {
+  transform: rotate(10deg) !important;
+}

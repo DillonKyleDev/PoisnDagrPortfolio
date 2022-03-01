@@ -1,0 +1,8 @@
+@import './presets.css';
+
+.white-page {
+  background-color: white !important;
+  width: 100%;
+  margin-top: 59px;
+  min-height: calc(100vh - 328px);
+}

@@ -1,0 +1,67 @@
+:root {
+  --violet: #b3bceb;
+  --dark-violet: #6677ce;
+  --darker-violet: rgb(56, 79, 194);
+}
+
+.violet-text {
+  color: var(--violet) !important;
+}
+.violet-text:hover {
+  color: var(--dark-violet) !important;
+}
+
+.violet-button {
+  border-color: var(--violet) !important;
+  background-color: var(--violet) !important;
+  color: #ffffff !important;
+}
+.violet-button:hover {
+  background-color: var(--dark-violet) !important;
+  border-color: var(--dark-violet) !important;
+}
+
+.dark-violet-button {
+  background-color: var(--dark-violet) !important;
+  border-color: var(--dark-violet) !important;
+  color: white !important;
+}
+.dark-violet-button:hover {
+  border-color: var(--darker-violet) !important;
+  background-color: var(--darker-violet) !important;
+}
+
+
+
+#fix-navlink-style {
+  color: white !important;
+  border: none !important;
+  border-radius: 4px;
+  text-decoration: none !important;
+  padding: .5rem 1.5rem !important;
+}
+
+.active {
+  color: var(--dark-violet) !important;
+  border: solid var(--dark-violet) 2px !important;
+  border-radius: 4px;
+  text-decoration: none !important;
+  padding: .5rem 1.5rem !important;
+}
+
+
+.background-violet {
+  border-color: var(--violet) !important;
+  background-color: var(--violet) !important;
+}
+.background-dark-violet {
+  background-color: var(--dark-violet) !important;
+  border-color: var(--dark-violet) !important;
+}
+
+
+.background-cover {
+  width: 100% !important;
+  margin-top: 59px !important;
+  min-height: calc(100vh - 328px) !important;
+}

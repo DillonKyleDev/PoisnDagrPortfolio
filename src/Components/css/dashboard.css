@@ -1,0 +1,5 @@
+@import './presets.css';
+
+.min-width {
+  min-width: 224px !important;
+}
